@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width:auto;
+
+}
+
+.navbar {
+    background-color: #082443;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.left h1 {
+    margin: 0;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.right #cart-count {
+    background-color: #ff6347; /* Red color for cart count badge */
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+/* Card */
+/* Card */
+.product-cart{
+    display: flex;
+}
+.product-all {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-around; /* Distribute cards evenly */
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    margin: 20px; /* Add margin for spacing between cards */
+    background-color: #F2F2F2;
+    border-radius: 2.5rem;
+
+}
+
+/* cart */
+
+  .cart {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 650px;
+  }
+  
+  .cart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cart tr {
+    border-bottom: 1px solid #b6c1c4;
+  }
+  
+  .cart td {
+    padding: 10px;
+  }
+  
+  #cart-total {
+    font-size: 24px;
+    color: green;
+  }
+  button{
+    background-color: #7add7d; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No text decoration */
+    display: inline-block; /* Display as an inline element */
+    font-size: 16px; /* Font size */
+    margin: 10px 2px; /* Margin around the button */
+    cursor: pointer; /* Cursor style on hover */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for a 3D effect */
+    transition: background-color 0.3s ease; 
+  }
